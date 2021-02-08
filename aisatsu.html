@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<!-- Created By THOKAR DEEPAK -->
+<html lang="ja-jp">
+<head>
+    <meta charset="utf-8">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Responsive Drop-down Menu Bar</title> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/Home.css">
+    <script src="../javascript/script.js"></script>
+    
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <title>IT Global Recruitment</title>
+</head>
+<body>
+    <!----------------------------Navigation-------------------------------->
+<nav>
+    <div class="logo"> 
+        <a href="">
+            <img class="logo-img" src="../images/logo.png" alt="ITグローバル株式会社">
+        </a>
+    </div>
+    <label for="btn" class="icon"><span class="fa fa-bars"></span></label>
+        <input class="bars" type="checkbox" id="btn">
+    <ul class="SmartPhone">
+        <li><a href="Home.html">ホーム</a></li>
+        <li>
+            <!--<label for="btn-1" class="show">サービス</label>-->
+            <a href="Service.html">サービス</a>
+            <!--<input type="checkbox" id="btn-1">-->
+            <ul>
+                <li>
+                    <label for="btn-3" class="show"></label>
+                    <a href="kokunai.html">国内事業 <i class="material-icons">chevron_right</i></a>
+                    <!--<input type="checkbox" id="btn-3">-->
+                    <ul>
+                        <li><a href="Touroku.html">登録支援機関</a></li>
+                        <li><a href="consult.html">コンサルティング</a></li>
+                        <li><a href="invest.html">資本提携業務</a></li>
+                    </ul>
+                </li>
+                <li><a href="kaigai.html">海外事業</a></li>
+                <li><a href="CaseStudy.html">事例</a></li>
+            </ul>
+        </li>
+        <li><a href="CompanyInformation.html">会社情報</a>
+            <ul>
+                <li><a href="kigyou.html">企業理念</a>
+                <li><a href="kaisyagaiyou.html">会社概要</a></li>
+                <li><a href="aisatsu.html">社長挨拶</a></li>
+                <li><a href="jigyourinen.html">事業理念</a></li>
+            </ul>
+        </li>
+        <li><a href="Jobseeker.html">求職者</a> 
+            <ul>
+                <li><a href="">IT関連 <i class="material-icons">  chevron_right</i></a>
+                    <ul>
+                        <li><a href="infrakei.html">インフラ系</a></li>
+                        <li><a href="kaihatsuengineer.html">開発エンジニア</a></li>
+                        <li><a href="ServerEngineer.html">サーバエンジニア</a></li>
+                        <li><a href="systemengineer.html">システムエンジニア</a></li>
+                        <li><a href="upDrama.html">アップドラマの開発</a></li>
+                        <li><a href="Ecommerce.html">Eコマース開発</a></li>
+                        <li><a href="Delivery.html">デリバリー</a></li>
+                        <li><a href="Backend.html">バックエンドエンジニア</a>
+                    </ul> 
+                </li>    
+                <li><a href="">特定技能 <i class="material-icons">  chevron_right</i></a>
+                    <ul>
+                        <li><a href="">外食</a></li>
+                        <li><a href="">製造業飲料</a></li>
+                        <li><a href="">宿泊</a></li>
+                        <li><a href="">農業</a></li>                            
+                    </ul>
+                </li>    
+            </ul>
+        </li> 
+        <li><a href="Contact.html">お問い合わせ</a></li>
+        <li><a href="">ENGLISH</a></li>
+    </ul>
+</nav>
+
+    <!----------------------------Main-------------------------------->
+<main class="main">
+    <header class="p-page-header" style="background-image: url(../images/Company/itglobal_building2.jpg);">
+		<div class="p-page-header__inner l-inner">
+		    <div class="p-page-header__title" style="background: rgba(4, 52, 104, -1); color: #ffffff; font-size: 35px;">社長挨拶</div>
+    	</div>
+    </header>
+    <div class="p-breadcrumb c-breadcrumb">
+		<ul class="p-breadcrumb__inner l-inner" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+			<li class="p-breadcrumb__item c-breadcrumb__item c-breadcrumb__item--home" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a href="Home.html" itemscope="" itemtype="http://schema.org/Thing" itemprop="item">
+                    <span itemprop="name"><i class="fa fa-home" aria-hidden="true"></i></span>
+                </a>
+				<meta itemprop="position" content="1">
+			</li>
+		    <li class="p-breadcrumb__item c-breadcrumb__item">社長挨拶</li>
+		</ul>	
+    </div>
+    <div class="l-content">
+        <div class="l-content__inner">
+            <!----------------------------Primary (Article)-------------------------------->
+            <article class="p-entry">
+                <header class="p-entry__header">
+					<h1 class="p-entry__title" style="font-size: 34px;">社長挨拶</h1>
+                </header>
+                <div class="p-entry__body">
+                    <!-- <hr width="”200″" align="”left”"><br><br>
+                    <div><span style="color: inherit; font-size: 1.95em; font-weight: 600;">企業理念</span></div>-->
+                    <article>
+                        <!-- <p  class="p-entry__body">
+                            <span style="color: inherit; font-size: 1.95em; font-weight: 600;">社長挨拶</span>
+                        </p> -->
+                        <p  class="p-entry__body">
+                            <img loading="lazy" src="../images/Company/daihyou_msg.jpg" alt="" width="1238px" height="643px">
+                        </p>
+                        <h2>ITの力で社会に笑顔を</h2>
+                        <p  class="p-entry__body">令和時代、日本では深刻な人手不足に直面し、 すぐに使える外国人人材の受け入れを支援し、経済活動の活性化に貢献する企業を目指します。</p>
+                        <p  class="p-entry__body">一方、外国人人材の受け入れについては、日本で活躍する外国人人材が活躍できる環境をサポートし、誰もが幸せに暮らせる社会をつくっていかなければなりません。そのために、日本で働きたい外国人の才能から多くを学び、その学びを活かした新たな海外人材ビジネスの創出に挑戦しなければなりません。</p>
+                        <p  class="p-entry__body">海外人材事業を「求職者と求人者が共生できる事業」とし、 他社には真似のできない価値の創造に努めます。</p>
+                        <p  class="p-entry__body">新たな海外人材ビジネスにご期待ください。</p>
+                        <div class="align2"><strong>取締役社長　林　寛海</strong></div>
+                        <p>&nbsp;</p>
+                    </article>
+                </div>
+            </article>
+            <!----------------------------Secondary-------------------------------->
+            <section class="l-secondary">
+                <!--<div class="p-widget widget_search">
+                <form role="search" method="get" id="searchform" class="searchform" action="">
+                    <div>
+                    <label class="screen-reader-text" for="s">検索:</label>
+                    <input type="text" value="" name="s" id="s">
+                    <input type="submit" id="searchsubmit" value="検索">        
+                    </div>
+                </form>
+                </div>-->
+                <!----------------------------Search-------------------------------->
+                <div class="p-widget">
+                    <form role="search" method="get" id="searchform" class="searchform" action="">
+                        <div>
+                            <label class="screen-reader-text" for="s">検索:</label>
+                            <input type="text" value="" name="s" id="s">
+                            <input type="submit" id="searchsubmit" value="検索">
+                        </div>
+                    </form>
+                </div>
+                <!----------------------------Dropdown Javascript-------------------------------->
+                <div class="dropdown_menu">
+                    <h2 class="dropdown_title">求人情報（日付から選ぶ)</h2>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">月を選択</button>
+                        <div id="myDropdown" class="dropdown-content">
+                        <a href="#">2020年9月</a>
+                        <a href="#">2020年8月</a>
+                        <a href="#">2020年7月</a>
+                        <a href="#">2020年6月</a>
+                        <a href="#">2020年4月</a>
+                        <a href="#">2020年3月</a>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------求人カテゴリ------------------------------------>
+                <div class="p-widget">
+                    <h2 class="p-widget__title">求人カテゴリ</h2>		
+                    <ul class="p-widget-list">
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item" href="file:///C:/Users/d.thokar/Documents/Work/.vscode/Ecommerce.html">Eコマース開発</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/it.html">IT</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/infrakei.html">IT関連（インフラ系）</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/Webgyoukai.html">Web 業界</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/upDrama.html">アップドラマの開発</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/ServerEngineer.html">サーバエンジニア</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/systemengineer.html">システムエンジニア</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/Delivery.html">デリバリー</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/Backend.html">バックエンドエンジニア</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/civil.html">建設・土木</a>
+                        </li>
+                        <li class="p-widget-list">
+                            <a class="p-widget-list__item"href="file:///C:/Users/d.thokar/Documents/Work/.vscode/kaihatsuengineer.html">開発エンジニア</a>
+                        </li>
+                    </ul>
+                  </div>
+                    <!--------------------------------新着求人情報------------------------------------>
+                <div class="p-widget">
+                    <h2 class="p-widget__title">新着求人情報</h2>		
+                    <ul class="p-widget-post-list">
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="civileng.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/a.jpg" class="attachment-size4 size-size4 wp-post-image" alt="construction" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="civileng.html">設計・開発・調査・施工管理</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-23">2020.09.23</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="webdesign.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/b.jpg" class="attachment-size4 size-size4 wp-post-image" alt="" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="webdesign.html">Webデザイナー・UI/UXデザイナー</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-16">2020.09.16</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="ui-ux.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/c.jpg" class="attachment-size4 size-size4 wp-post-image" alt="ux.ui" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="ui-ux.html">UI/UX/広報活動</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-16">2020.09.16</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="businessapp.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/d.jpg" class="attachment-size4 size-size4 wp-post-image" alt="planning" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="businessapp.html">ビジネスアプリケーション事業企画（マネージャー）</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-16">2020.09.16</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="openposition.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/f.jpg" class="attachment-size4 size-size4 wp-post-image" alt="technology" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="openposition.html">オープンポジション（技術系）</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-16">2020.09.16</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="kaikeiSystem.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/g.jpg" class="attachment-size4 size-size4 wp-post-image" alt="infrasture development" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="kaikeiSystem.html">会計システム基盤開発（マネージャー候補）</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-16">2020.09.16</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="kaikeikaihatsu.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/h.jpg" class="attachment-size4 size-size4 wp-post-image" alt="accounting system" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="kaikeikaihatsu.html">会計システム開発エンジニア（マネージャー）</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-16">2020.09.16</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="kaikeikaihatsu1.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/i.jpg" class="attachment-size4 size-size4 wp-post-image" alt="accounting system" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="kaikeikaihatsu1.html">会計システム開発エンジニア（マネージャー候補）</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-16">2020.09.16</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="CustomApp.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/j.png" class="attachment-size4 size-size4 wp-post-image" alt="app support engineer" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="CustomApp.html">カスタムアプリサポートエンジニア</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-15">2020.09.15</time>
+                    </li>
+                    <li class="p-widget-post-list__item u-clearfix">
+                        <a href="shizen.html" class="p-widget-post-list__item-image p-hover-effect--type1">
+                        <img width="200" height="200" src="../images/img/k.png" class="attachment-size4 size-size4 wp-post-image" alt="language searcher" loading="lazy">				
+                        </a>
+                        <h3 class="p-widget-post-list__item-title">
+                        <a href="shizen.html">自然言語処理（NLP）リサーチャー</a>
+                        </h3>
+                        <time class="p-widget-post-list__item-date" datetime="2020-09-15">2020.09.15</time>
+                    </li>
+                    </ul>
+                </div>
+                    <!----------------------------Calender-------------------------------->
+                <div class="p-widget">
+                    <div id="calendar_wrap" class="calendar_wrap">
+                        <table id="wp-calendar" class="wp-calendar-table">
+                        <caption>2020年12月</caption>
+                        <thead>
+                            <tr>
+                            <th scope="col" title="月曜日">月</th>
+                            <th scope="col" title="火曜日">火</th>
+                            <th scope="col" title="水曜日">水</th>
+                            <th scope="col" title="木曜日">木</th>
+                            <th scope="col" title="金曜日">金</th>
+                            <th scope="col" title="土曜日">土</th>
+                            <th scope="col" title="日曜日">日</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td colspan="1" class="pad">&nbsp;</td><td>1</td><td id="today">2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+                            </tr>
+                            <tr>
+                            <td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+                            </tr>
+                            <tr>
+                            <td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+                            </tr>
+                            <tr>
+                            <td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+                            </tr>
+                            <tr>
+                            <td>28</td><td>29</td><td>30</td><td>31</td>
+                            <td class="pad" colspan="3">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                        <!----------------------------Not complete-------------------------------->
+                        <div aria-label="前と次の月" class="wp-calendar-nav">
+                        <span class="wp-calendar-nav-prev">
+                            <a href=""> « 9月</a>
+                        </span>
+                        <span class="pad">&nbsp;</span>
+                        <span class="wp-calendar-nav-next">&nbsp;</span>
+                        </div>
+                    </div>
+                </div>
+                    <!----------------------------Bar Code-------------------------------->
+                <div class="p-widget">
+                    <h2 class="p-widget__title">こちらQRcode から応募可能　↓</h2><br><br><br>
+                    <img width="100" height="100" src="https://it-global.co.jp/wp-content/uploads/2020/07/itg_QRcode.png" class="image wp-image-2347  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;">
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+
+  <!----------------------------Footer-------------------------------->
+<footer class="l-footer" style="background: #eee;">
+    <div class="pagetop">
+        <center>
+            <a class="pagetop" href="">
+                <i class="fa fa-arrow-up w3-margin-right"></i>
+            </a>
+        </center>
+    </div>
+    <section class="p-widget-area" style="background: #f6f6f6;">
+        <div class="p-widget-area__inner l-inner u-clearfix">
+            <div class="p-footer-widget widget_text">
+                <div class="textwidget">
+                    <p></p>
+                    <center>
+                        <p></p>
+                        <h4>
+                            <span class="footer_color">
+                                <b>お申し込み・ご相談は、お気軽にお問い合わせください。</b>
+                            </span>
+                        </h4>
+                        <p>
+                            <span class="footer_color">電話による問い合わせ（土・日・祝日、GW、年末年始を除く）</span>
+                        </p>
+                        <hr>
+                        <p>
+                            <span class="footer_color">
+                                <img draggable="false" role="img" class="emoji" alt="☎" src="../images/phone.svg">&nbsp;<b>03-4588-2597</b>, <b>Email : info@it-global.co.jp</b>
+                            </span>
+                        </p>
+                        <p>
+                            <span class="footer_color" style="background-color: #ffcc00;"><b>
+                                <a href="">個人情報保護方針</a></b>
+                            </span>
+                        </p>
+                        <p>
+                            <span class="footer_color" style="background-color: #ffcc00;"><b>
+                                <a href="">webフォームによる申し込み・ご相談お問い合わせはこちら</a></b>
+                            </span><br>
+                        </p>
+                    </center>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="l-inner">
+        <div class="l-footer__logo c-logo">
+            <a href="">
+            <img src="../images/ITbook-Group.jpg" alt="ITグローバル株式会社">
+            </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <p class="p-address">ITグローバル株式会社<br>
+            <br>
+            〒105-0001 東京都虎ノ門3丁目1－1<br>
+            虎の門三丁目ビルディング（5階）<br>
+        </p>
+        <ul class="p-social-nav">
+            <a href="https://www.facebook.com/ITglobalASIA"><span class="fab fa-facebook-f"></span></a>
+            <a href="https://twitter.com/itglobal6?fbclid=IwAR1X5T8GnyPL2A-LLp0G3t9XEP2-1uI4Wy9kQrz8BOwoWrjNwUSrKWslGiM"><span class="fab fa-twitter"></span></a>
+            <a href="https://www.instagram.com/itglobal_recruit/"><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-youtube"></span></a>
+        </ul>
+        <p class="p-copyright"><small>Copyright © ITグローバル株式会社. All rights reserved.</small></p>
+    </div>
+</footer>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+  
